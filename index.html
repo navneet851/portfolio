@@ -31,6 +31,28 @@
 		/*======================================
 //--//-->   ABOUT
 ======================================*/
+
+		.block-20 {
+			position: relative;
+			display: block;
+			/* width: 100%;
+			height: 100%; */
+		}
+
+		.github-icon {
+			background-color: rgba(252, 252, 251, 0.203);
+			border-radius: 0px 0px 20px 0px;
+			position: absolute;
+			top: 0px;
+			/* Adjust as needed */
+			left: 0px;
+			/* Adjust as needed */
+			width: 45px;
+			/* Adjust as needed */
+			height: auto;
+			z-index: 20;
+		}
+
 		.skills-outer {
 			display: flex;
 			flex-direction: column;
@@ -203,26 +225,29 @@
 				flex-direction: column;
 			}
 		}
+
 		#main-img {
 			display: flex;
 			justify-content: right;
 			align-items: center;
 		}
-		.menu{
+
+		.menu {
 			display: none;
-			
+
 		}
-		@media (max-width: 991px) {	
-			#main-img{
+
+		@media (max-width: 991px) {
+			#main-img {
 				justify-content: center;
 			}
-			.menu{
+
+			.menu {
 				display: block;
 				border-radius: 6px;
 			}
-			
+
 		}
-		
 	</style>
 
 
@@ -260,7 +285,7 @@
 						data-scrollax-parent="true">
 						<div id="main-img" class="one-third js-fullheight order-md-last img">
 							<img style="border-radius: 50%; height: 300px; width: 300px;"
-							 src="IMG_20231209_152801_2-removebg.png" alt="">
+								src="IMG_20231209_152801_2-removebg.png" alt="">
 							<div class="overlay"></div>
 
 
@@ -283,7 +308,7 @@
 									const typingTexts = [
 										'Native Android Dev',
 										'Mobile Developer',
-										'',
+										'Android Developer',
 									];
 
 									// Create a function to display the typing animation for a given text
@@ -378,16 +403,20 @@
 						<a href="https://github.com/navneet851/spotify-clone-jetpack-compose/" target="_blank"
 							class="block-20 zoom-effect"
 							style="background-image: url('images/wp9830610-spotify-desktop-wallpapers.jpg');">
+							<img src="images/github_icon-removebg-preview.png" class="github-icon" alt="GitHub">
 						</a>
 						<div class="text mt-3 float-right d-block">
 
 							<h3 class="heading">Spotify Clone (Neptune)</h3>
-							<p>Spotify Clone using Jetpack Compose with updated theme using Kotlin Implementation in
-								Android using Firebase for Backend and Database.</p>
+							<p>Spotify Clone using Jetpack Compose framework with using Kotlin Implementation in
+								Android using Firebase for Database and Storage. Exo Player used for playing music with
+								the functionality of storing liked songs in shared preference, Build using MVVM
+								architecture.</p>
 						</div>
 						<div class="row justify-content-center mt-5">
 							<div class="col-md-6 text-center ftco-animate">
-								<p><a href="https://drive.google.com/file/d/1fFaSRDJ0lcOTYglQCBpepjVlQXGehy5E/view?usp=sharing" target="_blank" class="btn btn-primary py-2 px-3">Download App</a></p>
+								<p><a href="https://drive.google.com/file/d/1fFaSRDJ0lcOTYglQCBpepjVlQXGehy5E/view?usp=sharing"
+										target="_blank" class="btn btn-primary py-2 px-3">Download App</a></p>
 							</div>
 						</div>
 					</div>
@@ -397,13 +426,22 @@
 						<a href="https://github.com/navneet851/E-Commerce-Arena/" target="_blank"
 							class="block-20 zoom-effect"
 							style="background-image: url('images/Colorful-Gaming-Console-Wallpaper-for-Gamers.jpg');">
+							<img src="images/github_icon-removebg-preview.png" class="github-icon" alt="GitHub">
 						</a>
 						<div class="text mt-3 float-right d-block">
 
 							<h3 class="heading">E-Commerce Console Games Shopping App (Arena)</h3>
-							<p>Console Games Shopping App UI implemented in jetpack compose. Dual Authentication with
-								both otp or password, implemented in Firebase Auth. Firebase Firestore used as a
-								Database</p>
+							<p>Console Games Shopping App UI implemented in jetpack compose build upon MVVM
+								architecture. Dual Authentication with
+								otp or password, implemented in Firebase Auth. Push Notification implement Using FCM and
+								Ktor Server for upstream FCM Messaging, Firebase used for
+								Database and Storage.</p>
+						</div>
+						<div class="row justify-content-center mt-5">
+							<div class="col-md-6 text-center ftco-animate">
+								<p><a href="https://drive.google.com/file/d/1nAgBwiT95G2O5st4aC7L_WvKYGhe6ZC1/view?usp=sharing"
+										target="_blank" class="btn btn-primary py-2 px-3">Download App</a></p>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -448,7 +486,8 @@
 
 			<div class="row justify-content-center mt-5">
 				<div class="col-md-6 text-center ftco-animate">
-					<p><a href="NAVNEET YADAV android_developer.pdf" class="btn btn-primary py-3 px-5" download="">Download Resume</a></p>
+					<p><a href="NAVNEET YADAV android_developer.pdf" class="btn btn-primary py-3 px-5"
+							download="">Download Resume</a></p>
 				</div>
 			</div>
 		</div>
